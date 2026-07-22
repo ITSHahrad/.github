@@ -1,9 +1,3 @@
-[![CodeTime Languages](https://codetime.dev/api/widgets/donut.svg?uid=37304&days=30&limit=6&theme=dark)](https://codetime.dev)
-[![CodeTime Status](https://codetime.dev/api/widgets/status.svg?uid=37304&theme=dark&style=minimal)](https://codetime.dev)
-[![CodeTime Badge](https://shields.jannchie.com/endpoint?style=for-the-badge&color=1e293b&url=https%3A%2F%2Fcodetime.dev%2Fv3%2Fusers%2Fshield%3Fuid%3D37304%26label_color%3D0f172a)](https://codetime.dev)
-
----
-
 Hey! I’m **Shahrad Sheykhlani**, **self-taught software developer** from **Neyshabur, Iran**.  
 
 I’m passionate about **creating scalable, high-performance software** and exploring **modern web architectures** that blend creativity with engineering.
