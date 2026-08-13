@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahrad Sheykhlani — Resume</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Estedad:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #111111;
+      --muted: #666666;
+      --line: #dddddd;
+      --paper: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #eeeeee;
+      color: var(--ink);
+      font-family: "Manrope", sans-serif;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 8mm auto;
+      padding: 8mm 15mm;
+      background: var(--paper);
+      box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    }
+
+    .fa {
+      font-family: "Estedad", sans-serif;
+      direction: rtl;
+      text-align: right;
+    }
+
+    .section-title {
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .rule {
+      border-top: 1px solid var(--line);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    @media print {
+      html, body {
+        background: white;
+      }
+
+      .page {
+        margin: 0;
+        box-shadow: none;
+        break-after: page;
+      }
+
+      .page:last-child {
+        break-after: auto;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+    PRINT SETUP
+    1. Open this file in Chrome/Edge.
+    2. Print → Save as PDF.
+    3. Paper: A4, Scale: 100%, Margins: None.
+    4. Background graphics: enabled if available.
+  -->
+
+  <!-- ========================= ENGLISH ========================= -->
+  <main class="page">
+    <header class="flex items-start justify-between gap-10">
+      <div>
+        <div class="text-[10px] font-bold tracking-[.22em] uppercase text-zinc-800">ITSHahrad</div>
+        <h1 class="mt-2 text-[28px] leading-none font-extrabold tracking-[-.04em]">
+          Shahrad Sheykhlani
+        </h1>
+        <p class="mt-2.5 text-[12px] font-semibold text-zinc-700">
+          Full Stack Web Developer &amp; Game Server Developer
+        </p>
+      </div>
+
+      <div class="text-right text-[9px] leading-5 text-zinc-900">
+        <a href="https://itshahrad.ir/" class="block">itshahrad.ir</a>
+        <a href="https://github.com/ITSHahrad" class="block">github.com/ITSHahrad</a>
+        <a href="https://linkedin.com/in/ITSHahrad" class="block">linkedin.com/in/ITSHahrad</a>
+      </div>
+    </header>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5">
+      <h2 class="section-title">Profile</h2>
+      <p class="max-w-[170mm] text-[10.5px] leading-5.5 text-zinc-700">
+        Self-taught software developer with ~4 years of experience building practical, scalable and maintainable software.
+        Focused on full-stack web development, backend systems, game-server engineering and technical products.
+        Values clean architecture, readable code, performance, reliability and thoughtful user experience.
+      </p>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5">
+      <h2 class="section-title">Core Stack</h2>
+      <div class="grid grid-cols-3 gap-x-7 gap-y-4 text-[9.5px]">
+        <div>
+          <h3 class="font-bold mb-1.5">Frontend</h3>
+          <p class="leading-5 text-zinc-900">React.js · Next.js · Vite · TypeScript · JavaScript · Tailwind CSS · Framer Motion · HTML · CSS</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-1.5">Backend</h3>
+          <p class="leading-5 text-zinc-900">Node.js · Express.js · TypeScript · JavaScript · Prisma · Mongoose · REST APIs · JWT · Zod · Authentication systems</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-1.5">Data &amp; Systems</h3>
+          <p class="leading-5 text-zinc-900">MongoDB · MySQL · Linux · Database design · Migrations · Backup &amp; recovery</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5">
+      <h2 class="section-title">Selected Work</h2>
+
+      <!-- C-Connect -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">C-Connect</h3>
+          <a href="https://c-connect.ir" class="text-[8px] text-zinc-800 shrink-0">c-connect.ir · Software Platform</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5 text-zinc-900">
+          Smart café management platform for Iran. Digital menus, online ordering, table management, financial reporting and direct customer communication.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800">
+          TypeScript · React · Express · MongoDB · Tailwind CSS · Framer Motion
+        </p>
+      </article>
+
+      <!-- Moeen Vatandoost Portfolio -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">Moeen Vatandoost Portfolio</h3>
+          <a href="https://moeen-vatandoost.ir" class="text-[8px] text-zinc-800 shrink-0">moeen-vatandoost.ir · Portfolio</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5 text-zinc-900">
+          Sleek bilingual portfolio for a creative designer. Built with strong focus on performance, SEO and smooth UX using Framer Motion.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800">
+          TypeScript · React · Tailwind CSS · Framer Motion
+        </p>
+      </article>
+
+      <!-- Ghararshop -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">Ghararshop Ecommerce</h3>
+          <a href="https://ghararshop.com" class="text-[8px] text-zinc-800 shrink-0">ghararshop.com · E-commerce</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5 text-zinc-900">
+          WooCommerce store with custom theme and an optimized SPA page focused on SEO and performance.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800">
+          WordPress · React · WooCommerce · Tailwind CSS
+        </p>
+      </article>
+
+      <!-- Resyncer -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">Resyncer</h3>
+          <a href="https://github.com/ITSHahrad/resyncer" class="text-[8px] text-zinc-800 shrink-0">github.com/ITSHahrad/resyncer · CLI Tool</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5 text-zinc-900">
+          Simple TypeScript CLI tool for fetching and synchronizing remote resources into a project.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800">
+          TypeScript · Node.js
+        </p>
+      </article>
+
+      <!-- Vintage Vibe -->
+      <article>
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">Vintage Vibe Drift</h3>
+          <a href="https://github.com/ITSHahrad/vintage-vibe" class="text-[8px] text-zinc-800 shrink-0">github.com/ITSHahrad/vintage-vibe · Game Server</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5 text-zinc-900">
+          Classic drift-focused multiplayer server for Multi Theft Auto: San Andreas (MTA:SA).
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800">
+          MTA:SA · Lua · MySQL
+        </p>
+      </article>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5 grid grid-cols-2 gap-8">
+      <div>
+        <h2 class="section-title">Game Server Engineering</h2>
+        <ul class="space-y-1 text-[9.5px] leading-5 text-zinc-900">
+          <li>Lua &amp; MTA:SA scripting</li>
+          <li>Minecraft configuration, Fabric, plugins &amp; mods</li>
+          <li>Custom scripting and integrations</li>
+          <li>Economy, progression and roleplay systems</li>
+          <li>Deployment and server administration</li>
+          <li>Backups, troubleshooting and performance optimization</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section-title">Engineering Focus</h2>
+        <ul class="space-y-1 text-[9.5px] leading-5 text-zinc-900">
+          <li>Full-stack and backend architecture</li>
+          <li>REST API design and authentication</li>
+          <li>Database architecture and data modeling</li>
+          <li>Server infrastructure</li>
+          <li>Real-time systems and performance</li>
+          <li>Modern responsive UI/UX and localization</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5 grid grid-cols-2 gap-8">
+      <div>
+        <h2 class="section-title">Infrastructure</h2>
+        <p class="text-[9.5px] leading-5 text-zinc-900">
+          Ubuntu · Arch Linux · MongoDB deployment · Cron · server monitoring ·
+          package management · storage management · deployment workflows
+        </p>
+      </div>
+      <div>
+        <h2 class="section-title">Languages &amp; Ecosystems</h2>
+        <p class="text-[9.5px] leading-5 text-zinc-900">
+          JavaScript · TypeScript · Lua · Persian RTL · English · multilingual application development
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================= PERSIAN ========================= -->
+  <main class="page fa">
+    <header class="flex items-start justify-between gap-10">
+      <div class="text-right">
+        <div class="text-[10px] font-bold tracking-[.18em] text-zinc-800" dir="ltr">ITSHahrad</div>
+        <h1 class="mt-2 text-[26px] leading-tight font-extrabold tracking-[-.02em]">
+          شهراد شیخلانی
+        </h1>
+        <p class="mt-2.5 text-[11px] font-semibold text-zinc-700">
+          توسعه‌دهنده فول‌استک وب و توسعه‌دهنده گیم‌سرور
+        </p>
+      </div>
+
+      <div class="text-left text-[9px] leading-5 text-zinc-900" dir="ltr">
+        <a href="https://itshahrad.ir/" class="block">itshahrad.ir</a>
+        <a href="https://github.com/ITSHahrad" class="block">github.com/ITSHahrad</a>
+        <a href="https://linkedin.com/in/ITSHahrad" class="block">linkedin.com/in/ITSHahrad</a>
+      </div>
+    </header>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5">
+      <h2 class="section-title">پروفایل</h2>
+      <p class="text-[10.5px] leading-6 text-zinc-700">
+        توسعه‌دهنده خودآموخته نرم‌افزار با حدود ۴ سال تجربه، متمرکز بر ساخت نرم‌افزارهای کاربردی،
+        مقیاس‌پذیر و قابل نگهداری. فعالیت اصلی در توسعه فول‌استک وب، سیستم‌های بک‌اند،
+        توسعه گیم‌سرور و محصولات نرم‌افزاری است. تمرکز بر معماری تمیز،
+        کدنویسی خوانا، عملکرد، پایداری و تجربه کاربری مناسب.
+      </p>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5">
+      <h2 class="section-title">تکنولوژی‌های اصلی</h2>
+      <div class="grid grid-cols-3 gap-x-7 gap-y-4 text-[9.5px]">
+        <div>
+          <h3 class="font-bold mb-1.5">فرانت‌اند</h3>
+          <p class="leading-5 text-zinc-900" dir="ltr">React.js · Next.js · Vite · TypeScript · JavaScript · Tailwind CSS · Framer Motion · HTML · CSS</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-1.5">بک‌اند</h3>
+          <p class="leading-5 text-zinc-900" dir="ltr">Node.js · Express.js · TypeScript · JavaScript · Prisma · Mongoose · REST APIs · JWT · Zod · Auth Systems</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-1.5">داده و سیستم</h3>
+          <p class="leading-5 text-zinc-900" dir="ltr">MongoDB · MySQL · Linux · Database Design · Migrations · Backup &amp; Recovery</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5">
+      <h2 class="section-title">پروژه‌های منتخب</h2>
+
+      <!-- C-Connect -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">کافی کانکت (C-Connect)</h3>
+          <a href="https://c-connect.ir" class="text-[8px] text-zinc-800 shrink-0" dir="ltr">c-connect.ir</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5.5 text-zinc-900">
+          پلتفرم هوشمند مدیریت کافه در ایران. منوی دیجیتال، سفارش آنلاین، مدیریت میز، گزارش‌گیری مالی و ارتباط مستقیم با مشتریان.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800" dir="ltr">
+          TypeScript · React · Express · MongoDB · Tailwind CSS · Framer Motion
+        </p>
+      </article>
+
+      <!-- Moeen -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">پورتفولیو معین وطن‌دوست</h3>
+          <a href="https://moeen-vatandoost.ir" class="text-[8px] text-zinc-800 shrink-0" dir="ltr">moeen-vatandoost.ir</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5.5 text-zinc-900">
+          پورتفولیوی دوزبانه و شیک برای یک طراح خلاق با تمرکز بر عملکرد، سئو و تجربه کاربری روان با Framer Motion.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800" dir="ltr">
+          TypeScript · React · Tailwind CSS · Framer Motion
+        </p>
+      </article>
+
+      <!-- Ghararshop -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">فروشگاه قرارشاپ</h3>
+          <a href="https://ghararshop.com" class="text-[8px] text-zinc-800 shrink-0" dir="ltr">ghararshop.com</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5.5 text-zinc-900">
+          وب‌سایت فروشگاهی با قالب اختصاصی و ووکامرس، به همراه صفحه SPA بهینه‌سازی‌شده برای سئو.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800" dir="ltr">
+          WordPress · React · WooCommerce · Tailwind CSS
+        </p>
+      </article>
+
+      <!-- Resyncer -->
+      <article class="mb-3.5">
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">ری‌سینکر (Resyncer)</h3>
+          <a href="https://github.com/ITSHahrad/resyncer" class="text-[8px] text-zinc-800 shrink-0" dir="ltr">github.com/ITSHahrad/resyncer</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5.5 text-zinc-900">
+          ابزار خط فرمان ساده برای دریافت و همگام‌سازی منابع از راه دور در پروژه.
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800" dir="ltr">
+          TypeScript · Node.js
+        </p>
+      </article>
+
+      <!-- Vintage Vibe -->
+      <article>
+        <div class="flex justify-between gap-4 items-baseline">
+          <h3 class="text-[11px] font-bold">وینتیج وایب دریفت</h3>
+          <a href="https://github.com/ITSHahrad/vintage-vibe" class="text-[8px] text-zinc-800 shrink-0" dir="ltr">github.com/ITSHahrad/vintage-vibe</a>
+        </div>
+        <p class="mt-1 text-[9.5px] leading-5.5 text-zinc-900">
+          سرور چندنفره کلاسیک و متمرکز بر دریفت برای بازی Multi Theft Auto: San Andreas (MTA:SA).
+        </p>
+        <p class="mt-0.5 text-[8.5px] leading-4 text-zinc-800" dir="ltr">
+          MTA:SA · Lua · MySQL
+        </p>
+      </article>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5 grid grid-cols-2 gap-8">
+      <div>
+        <h2 class="section-title">مهندسی گیم‌سرور</h2>
+        <ul class="space-y-1 text-[9.5px] leading-5.5 text-zinc-900">
+          <li>اسکریپت‌نویسی Lua و MTA:SA</li>
+          <li>کانفیگ Minecraft، Fabric، پلاگین و مود</li>
+          <li>اسکریپت‌نویسی و یکپارچه‌سازی اختصاصی</li>
+          <li>سیستم‌های اقتصاد، پیشرفت و Roleplay</li>
+          <li>استقرار و مدیریت سرورها</li>
+          <li>بکاپ، عیب‌یابی و بهینه‌سازی عملکرد</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section-title">تمرکز مهندسی</h2>
+        <ul class="space-y-1 text-[9.5px] leading-5.5 text-zinc-900">
+          <li>معماری فول‌استک و بک‌اند</li>
+          <li>طراحی REST API و سیستم‌های احراز هویت</li>
+          <li>معماری دیتابیس و مدل‌سازی داده</li>
+          <li>زیرساخت سرور</li>
+          <li>سیستم‌های بلادرنگ و بهینه‌سازی عملکرد</li>
+          <li>UI/UX مدرن، ریسپانسیو و چندزبانه</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="mt-5 rule"></div>
+
+    <section class="mt-5 grid grid-cols-2 gap-8">
+      <div>
+        <h2 class="section-title">زیرساخت</h2>
+        <p class="text-[9.5px] leading-5.5 text-zinc-900" dir="ltr">
+          Ubuntu · Arch Linux · MongoDB deployment · Cron · Server Monitoring ·
+          Package Management · Storage Management · Deployment Workflows
+        </p>
+      </div>
+
+      <div>
+        <h2 class="section-title">زبان‌ها و اکوسیستم</h2>
+        <p class="text-[9.5px] leading-5.5 text-zinc-900">
+          JavaScript · TypeScript · Lua · رابط‌های فارسی RTL · محیط‌های انگلیسی · توسعه اپلیکیشن‌های چندزبانه
+        </p>
+      </div>
+    </section>
+
+    <footer class="mt-8 pt-3 rule flex items-center justify-between text-[8px] text-zinc-800" dir="ltr">
+      <a href="https://itshahrad.ir/">itshahrad.ir</a>
+      <span>Software Development · Web · Backend · Game Servers</span>
+      <span>02 / 02</span>
+    </footer>
+  </main>
+</body>
+</html>
