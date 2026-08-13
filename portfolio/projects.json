@@ -38,7 +38,7 @@
         "en": "Woocommerce with custom theme website that sales products, SPA page with SEO."
       },
       "stack": [
-        "Php", "Wordpress", "React", "Woocommerce", "TailwindCSS"
+        "Wordpress", "React", "Woocommerce", "TailwindCSS"
       ],
       "url": "https://ghararshop.com"
     },
