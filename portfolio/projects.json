@@ -52,7 +52,7 @@
         "en": "Simple CLI tool to fetch and sync remote resources into your project."
       },
       "stack": [
-        "Javascript", "Node.js"
+        "Typescript", "Node.js"
       ],
       "url": "https://github.com/ITSHahrad/resyncer"
     },
