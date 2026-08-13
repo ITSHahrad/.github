@@ -52,7 +52,7 @@
         "en": "Simple CLI tool to fetch and sync remote resources into your project."
       },
       "stack": [
-        "Javascript", "Nodejs"
+        "Javascript", "Node.js"
       ],
       "url": "https://ghararshop.com"
     },
