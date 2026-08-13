@@ -1,0 +1,74 @@
+{
+  "projects": [ 
+    { 
+      "title": { 
+        "en": "C-Connect",
+        "fa": "کافی کانکت"
+      },
+      "description": {
+        "fa": "کافی کانکت (C-Connect) پلتفرم هوشمند مدیریت کافه در ایران. منوی دیجیتال، سفارش آنلاین، مدیریت میز، گزارش‌گیری مالی و ارتباط مستقیم با مشتریان.",
+        "en": "C-Connect is a smart café management platform in Iran, featuring digital menus, online ordering, table management, financial reporting, and direct customer communication."
+      },
+      "stack": [
+        "Typescript", "React", "Express", "Mongodb", "TailwindCSS", "Framer-Motion"
+      ],
+      "url": "https://c-connect.ir"
+    },
+    { 
+      "title": { 
+        "en": "Moeen Vatandoost Portfolio",
+        "fa": "پورتفولیو معین وطن دوست"
+      },
+      "description": {
+        "fa": "یک پورتفولیوی دوزبانه و شیک برای یک طراح خلاق که با استفاده از Framer Motion، با تمرکز بر عملکرد، سئو و تجربه کاربری (UX) روان ساخته شده است.",
+        "en": "A sleek bilingual portfolio for a creative designer, built for performance, SEO, and smooth UX with Framer Motion."
+      },
+      "stack": [
+        "Typescript", "React", "TailwindCSS", "Framer-Motion"
+      ],
+      "url": "https://moeen-vatandoost.ir"
+    },
+    { 
+      "title": { 
+        "en": "Ghararshop Ecommerce",
+        "fa": "فروشگاه قرارشاپ"
+      },
+      "description": {
+        "fa": "وب‌سایت فروشگاهی با قالب اختصاصی و ووکامرس، به همراه صفحه SPA بهینه‌سازی‌شده برای موتورهای جستجو (SEO)",
+        "en": "Woocommerce with custom theme website that sales products, SPA page with SEO."
+      },
+      "stack": [
+        "Php", "Wordpress", "React", "Woocommerce", "TailwindCSS"
+      ],
+      "url": "https://ghararshop.com"
+    },
+    { 
+      "title": { 
+        "en": "Resyncer",
+        "fa": "ری سینکر"
+      },
+      "description": {
+        "fa": "ابزار ساده‌ی خط فرمان (CLI) برای دریافت و همگام‌سازی منابع از راه دور در پروژه.",
+        "en": "Simple CLI tool to fetch and sync remote resources into your project."
+      },
+      "stack": [
+        "Javascript", "Nodejs"
+      ],
+      "url": "https://ghararshop.com"
+    },
+    { 
+      "title": { 
+        "en": "Vintage Vibe",
+        "fa": "وینتیج وایب"
+      },
+      "description": {
+        "fa": "وینتیج وایب دریفت (Vintage Vibe Drift) یک سرور چندنفره کلاسیک و متمرکز بر دریفت برای بازی (MTA:SA) است.",
+        "en": "Vintage Vibe Drift is a classic drift-focused multiplayer server for Multi Theft Auto: San Andreas (MTA:SA)."
+      },
+      "stack": [
+        "MTA-SA", "Lua", "MySQL"
+      ],
+      "url": "https://github.com/ITSHahrad/vintage-vibe"
+    }
+  ]
+}
